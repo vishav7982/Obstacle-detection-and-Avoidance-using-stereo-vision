@@ -2,8 +2,8 @@ import opencv as cv2
 import numpy as np
 import time
 
-imgF = cv2.imread("/home/aman/Documents/Project/DepthCal/Data/front.png", 0)
-imgR = cv2.imread("/home/aman/Documents/Project/DepthCal/Data/rear.png", 0)
+imgF = cv2.imread("/home/vishav/Documents/Project/DepthCal/Data/front.png", 0)
+imgR = cv2.imread("/home/vishav/Documents/Project/DepthCal/Data/rear.png", 0)
 
 imgF = cv2.resize(imgF, (480, 720))
 imgR = cv2.resize(imgR, (480, 720))
